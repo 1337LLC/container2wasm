@@ -1,8 +1,8 @@
 importScripts("https://cdn.jsdelivr.net/npm/xterm-pty@0.9.4/workerTools.js");
-importScripts(location.origin + "browser_wasi_shim/index.js");
-importScripts(location.origin + "browser_wasi_shim/wasi_defs.js");
-importScripts(location.origin + "worker-util.js");
-importScripts(location.origin + "wasi-util.js");
+importScripts(location.origin + "/container2wasm/examples/wasi-browser/htdocs/browser_wasi_shim/index.js");
+importScripts(location.origin + "/container2wasm/examples/wasi-browser/htdocs/browser_wasi_shim/wasi_defs.js");
+importScripts(location.origin + "/container2wasm/examples/wasi-browser/htdocs/worker-util.js");
+importScripts(location.origin + "/container2wasm/examples/wasi-browser/htdocs/wasi-util.js");
 
 onmessage = (msg) => {
     if (serveIfInitMsg(msg)) {
