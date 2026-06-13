@@ -38,8 +38,8 @@ ARG BOCHS_REPO_VERSION=a88d1f687ec83ff82b5318f59dcecb8dab44fc83
 ARG QEMU_REPO=https://github.com/ktock/qemu-wasm
 ARG QEMU_REPO_VERSION=8604ed49a3cde392890b014a8d5a959c8a2fe72a
 
-ARG SOURCE_REPO=https://github.com/ktock/container2wasm
-ARG SOURCE_REPO_VERSION=v0.8.4
+ARG SOURCE_REPO=https://github.com/1337llc/container2wasm
+ARG SOURCE_REPO_VERSION=main
 
 ARG ZLIB_VERSION=1.3.2
 ARG GLIB_MINOR_VERSION=2.75
